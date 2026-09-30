@@ -19,6 +19,8 @@ Fields cover the transaction (`amt`, `hour`), the cardholder (`age`, `gender`, `
 
 **Source:** [Credit Card Transactions Fraud Detection Dataset (Kaggle, by Kartik Shenoy)](https://www.kaggle.com/datasets/kartik2112/fraud-detection). This is a simulated dataset covering January 2019 to December 2020.
 
+**Cleaned dataset:** [Download from Google Drive](https://drive.google.com/file/d/1U-vnu0oKy51McmmvXEIRSGUW0H8m5T3Z/view?usp=sharing)
+
 ## Approach
 
 - **No resampling.** No SMOTE, oversampling or undersampling. The natural 0.58% fraud rate was preserved so the model can learn what "normal" looks like.
